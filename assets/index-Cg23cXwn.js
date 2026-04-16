@@ -195,7 +195,7 @@ Please change the parent <Route path="${K}"> to <Route path="${K==="/"?"*":`${K}
           }
         }
       `})]}),Am=[{id:1,title:"Novel Spectroscopy Tools",description:"Search for exotic phases of matter hidden to conventional probes. Develop new approaches using coherent synchrotron sources and strong pulsed lasers.",fullDescription:`
-      <p>We are developing novel spectroscopy tools to uncover hidden phases of matter. By utilizing coherent synchrotron sources and strong pulsed lasers, we can probe materials in ways that were previously impossible.</p>
+      <p>We are developing novel spectroscopy tools to uncover hidden phases of matter. By employing coherent synchrotron sources and strong pulsed lasers, we can probe materials in ways that were previously impossible.</p>
       <p>This research focuses on:</p>
       <ul>
         <li>Developing new measurement protocols</li>

@@ -114,8 +114,8 @@ Please change the parent <Route path="${K}"> to <Route path="${K==="/"?"*":`${K}
           padding-top: 0;
           background-image: url(${Uv});
           background-color: #ffffff;
-          background-size: auto 100%;
-          background-position: right center;
+          background-size: auto 75%;
+          background-position: right bottom;
           background-repeat: no-repeat;
         }
         
@@ -171,7 +171,8 @@ Please change the parent <Route path="${K}"> to <Route path="${K==="/"?"*":`${K}
           }
           
           .hero {
-            background-position: right center;
+            background-position: right bottom;
+            background-size: auto 50%;
           }
         }
       `})]}),Am=[{id:1,title:"Novel Spectroscopy Tools",description:"Search for exotic phases of matter hidden to conventional probes. Develop new approaches using coherent synchrotron sources and strong pulsed lasers.",fullDescription:`

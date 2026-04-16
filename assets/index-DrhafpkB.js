@@ -124,6 +124,7 @@ Please change the parent <Route path="${K}"> to <Route path="${K==="/"?"*":`${K}
           line-height: 1.1;
           margin-bottom: var(--spacing-md);
           max-width: 1400px;
+          text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
         }
         
         .highlight {
@@ -141,6 +142,7 @@ Please change the parent <Route path="${K}"> to <Route path="${K==="/"?"*":`${K}
           max-width: 1000px;
           margin-bottom: var(--spacing-lg);
           font-weight: 300;
+          text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
         }
         
         .hero-actions {

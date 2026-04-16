@@ -112,11 +112,30 @@ Please change the parent <Route path="${K}"> to <Route path="${K==="/"?"*":`${K}
           display: flex;
           align-items: center;
           padding-top: 0;
-          background-image: url(${Uv});
           background-color: #ffffff;
+          position: relative;
+          overflow: hidden;
+        }
+
+        .hero::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-image: url(${Uv});
           background-size: auto 60%;
           background-position: right bottom;
           background-repeat: no-repeat;
+          z-index: 0;
+          mask-image: radial-gradient(ellipse at 85% 85%, black 20%, transparent 85%);
+          -webkit-mask-image: radial-gradient(ellipse at 85% 85%, black 20%, transparent 85%);
+        }
+
+        .container {
+          position: relative;
+          z-index: 1;
         }
         
         .hero-title {
@@ -147,7 +166,7 @@ Please change the parent <Route path="${K}"> to <Route path="${K==="/"?"*":`${K}
           font-size: 1.5rem;
           max-width: 1000px;
           margin-bottom: var(--spacing-lg);
-          font-weight: 400;
+          font-weight: 300;
           text-shadow: 
             0 0 8px #ffffff,
             0 0 15px #ffffff,
@@ -170,7 +189,7 @@ Please change the parent <Route path="${K}"> to <Route path="${K==="/"?"*":`${K}
             max-width: 100%;
           }
           
-          .hero {
+          .hero::before {
             background-position: right bottom;
             background-size: auto 50%;
           }

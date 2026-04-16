@@ -121,7 +121,7 @@ Please change the parent <Route path="${K}"> to <Route path="${K==="/"?"*":`${K}
           align-items: center;
           width: 100%;
           position: relative;
-          padding-bottom: 4rem; 
+          padding-bottom: 6rem; 
           z-index: 1;
         }
 

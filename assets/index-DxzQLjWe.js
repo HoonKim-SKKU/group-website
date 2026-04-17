@@ -497,11 +497,29 @@ Please change the parent <Route path="${K}"> to <Route path="${K==="/"?"*":`${K}
 
         @media (max-width: 768px) {
           .gallery-item {
-            min-width: 260px;
+            min-width: 210px; /* Reduced for better balance */
+          }
+          
+          .gallery-item:hover {
+            transform: none; /* Disable hover lift on mobile */
           }
           
           .nav-btn {
-            display: none; /* Hide buttons on mobile where touch scroll is natural */
+            display: none; 
+          }
+
+          .image-wrapper {
+            height: auto;
+            aspect-ratio: 4 / 3;
+            background-color: var(--bg-secondary);
+          }
+
+          .image-wrapper img {
+            object-fit: contain; /* Stop magnification/cropping */
+          }
+
+          .gallery-item:hover .image-wrapper img {
+            transform: none; /* Disable zoom on mobile */
           }
 
           .lightbox-overlay {
@@ -510,11 +528,6 @@ Please change the parent <Route path="${K}"> to <Route path="${K==="/"?"*":`${K}
 
           .lightbox-caption h3 {
             font-size: 1.2rem;
-          }
-
-          .image-wrapper {
-            height: auto;
-            aspect-ratio: 3 / 2;
           }
 
           .lightbox-close {

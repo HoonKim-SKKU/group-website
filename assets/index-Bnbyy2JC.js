@@ -496,12 +496,21 @@ Please change the parent <Route path="${K}"> to <Route path="${K==="/"?"*":`${K}
         }
 
         @media (max-width: 768px) {
+          .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: var(--spacing-sm);
+            overflow-x: visible;
+            padding-bottom: 0;
+          }
+
           .gallery-item {
-            min-width: 210px; /* Reduced for better balance */
+            min-width: 0;
+            width: 100%;
           }
           
           .gallery-item:hover {
-            transform: none; /* Disable hover lift on mobile */
+            transform: none;
           }
           
           .nav-btn {
@@ -510,16 +519,29 @@ Please change the parent <Route path="${K}"> to <Route path="${K==="/"?"*":`${K}
 
           .image-wrapper {
             height: auto;
-            aspect-ratio: 4 / 3;
+            aspect-ratio: 1 / 1; /* Square thumbnails for better grid density */
             background-color: var(--bg-secondary);
           }
 
           .image-wrapper img {
-            object-fit: contain; /* Stop magnification/cropping */
+            object-fit: contain;
+            padding: 5px;
           }
 
-          .gallery-item:hover .image-wrapper img {
-            transform: none; /* Disable zoom on mobile */
+          .item-info {
+            padding: 8px;
+          }
+
+          .item-info h3 {
+            font-size: 0.9rem;
+            margin-bottom: 2px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+
+          .item-info p {
+            font-size: 0.75rem;
           }
 
           .lightbox-overlay {

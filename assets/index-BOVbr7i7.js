@@ -512,6 +512,11 @@ Please change the parent <Route path="${K}"> to <Route path="${K==="/"?"*":`${K}
             font-size: 1.2rem;
           }
 
+          .image-wrapper {
+            height: auto;
+            aspect-ratio: 3 / 2;
+          }
+
           .lightbox-close {
             top: 10px;
             right: 10px;

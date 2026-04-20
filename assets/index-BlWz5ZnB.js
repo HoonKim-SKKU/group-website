@@ -278,8 +278,8 @@ Please change the parent <Route path="${K}"> to <Route path="${K==="/"?"*":`${K}
             -webkit-mask-image: radial-gradient(ellipse at center bottom, black 20%, transparent 80%);
           }
         }
-      `})]}),Am=[{id:1,title:"Novel Spectroscopy Techniques",description:"Search for exotic phases of matter hidden from conventional probes. Develop new approaches using coherent synchrotron sources and strong pulsed lasers.",fullDescription:`
-      <p>We are developing novel spectroscopy techniques to uncover hidden phases of matter. By employing coherent synchrotron sources and strong pulsed lasers, we can probe materials in ways that were previously impossible.</p>
+      `})]}),Am=[{id:1,title:"Novel Spectroscopy Techniques",description:"Search for exotic phases of matter hidden from conventional probes. Develop new experimental approaches using coherent synchrotron light sources and strong pulsed lasers.",fullDescription:`
+      <p>We are developing novel spectroscopy techniques to uncover hidden phases of matter. By employing coherent synchrotron light sources and strong pulsed lasers, we can probe materials in ways that were previously impossible.</p>
       <p>This research focuses on:</p>
       <ul>
         <li>Developing new measurement protocols</li>

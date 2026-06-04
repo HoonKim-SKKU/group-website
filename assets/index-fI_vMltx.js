@@ -282,27 +282,36 @@ Please change the parent <Route path="${K}"> to <Route path="${K==="/"?"*":`${K}
       <p>We are developing novel spectroscopy techniques to uncover hidden phases of matter. By employing coherent synchrotron light sources and strong pulsed lasers, we can probe materials in ways that were previously impossible.</p>
       <p>This research focuses on:</p>
       <ul>
-        <li>Optical spectroscopies
-          <ul>
-            <li>High-resolution Raman spectroscopy</li>
-            <li>Rotational anisotropy second harmonic generation (RA-SHG)</li>
-            <li>Reflection / Transmission / Photoluminescence</li>
-          </ul>
+        <li style="list-style-type: none; margin-left: -20px;">
+          <details open>
+            <summary style="cursor: pointer; font-weight: bold; outline: none; margin-bottom: 5px;">Optical spectroscopies</summary>
+            <ul>
+              <li>High-resolution Raman spectroscopy</li>
+              <li>Rotational anisotropy second harmonic generation (RA-SHG)</li>
+              <li>Reflection / Transmission / Photoluminescence</li>
+            </ul>
+          </details>
         </li>
-        <li>X-ray spectroscopies
-          <ul>
-            <li>Resonant inelastic X-ray scattering (RIXS)</li>
-            <li>Resonant X-ray diffraction</li>
-            <li>X-ray absorption spectroscopy (XAS)</li>
-          </ul>
+        <li style="list-style-type: none; margin-left: -20px; margin-top: 10px;">
+          <details open>
+            <summary style="cursor: pointer; font-weight: bold; outline: none; margin-bottom: 5px;">X-ray spectroscopies</summary>
+            <ul>
+              <li>Resonant inelastic X-ray scattering (RIXS)</li>
+              <li>Resonant X-ray diffraction</li>
+              <li>X-ray absorption spectroscopy (XAS)</li>
+            </ul>
+          </details>
         </li>
-        <li>Time-resolved optical/X-ray spectroscopy
-          <ul>
-            <li>Resonant time-resolved Raman spectroscopy</li>
-            <li>Transient broadband reflectivity</li>
-            <li>Time-resolved rotational anisotropy second harmonic generation</li>
-            <li>Time-resolved resonant X-ray diffraction (w/ XFEL)</li>
-          </ul>
+        <li style="list-style-type: none; margin-left: -20px; margin-top: 10px;">
+          <details open>
+            <summary style="cursor: pointer; font-weight: bold; outline: none; margin-bottom: 5px;">Time-resolved optical/X-ray spectroscopy</summary>
+            <ul>
+              <li>Resonant time-resolved Raman spectroscopy</li>
+              <li>Transient broadband reflectivity</li>
+              <li>Time-resolved rotational anisotropy second harmonic generation</li>
+              <li>Time-resolved resonant X-ray diffraction (w/ XFEL)</li>
+            </ul>
+          </details>
         </li>
       </ul>
     `},{id:2,title:"Quantum Phases of Matter",description:"Host quasi-particles and collective excitations that exist only inside quantum materials. Studying various quantum phenomena ranging from superconductivity to fractionalization of elementary particles.",fullDescription:`
